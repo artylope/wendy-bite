@@ -1,0 +1,116 @@
+
+body{
+  background: #444444;
+  color: white;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.container{
+  /* max-width: 960px; */
+  margin: 0 auto;
+}
+
+header{
+  border-bottom: 1px solid #777;
+  padding-bottom: 30px;
+}
+nav{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a{
+  color: #00d59d;
+  font-family: "Arial Bold",sans-serif;
+  font-weight: bold;
+}
+
+a.active{
+  color: white;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  margin-top: -10px;
+}
+h2{
+  font-family:  "Arial Bold", sans-serif;
+}
+
+p{
+  line-height: 1.4;
+}
+
+.box{
+  border: 5px solid #777777;
+  padding: 50px;
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+img{
+  padding: 10px;
+  border: 2px solid #777;
+  display: inline-block;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+.social{
+  border-top: 1px solid #777;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+/* Resume */
+
+h3{
+  font-family: "Arial Bold", sans-serif;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-top: 50px;
+}
+
+li{
+  font-family: "Arial Bold", sans-serif;
+  padding-bottom: 20px;
+}
+
+.job-title{
+  /* font-size: 1.1em; */
+}
+
+.time{
+  margin-left: 10px;
+  font-size: .9em;
+  color: #aaa;
+}
+
+.job-desc{
+  color: #aaa;
+  font-family: "Times New Roman", serif;
+  margin-top: 10px;
+}
+
+ul{
+  list-style-type: square;
+}
